@@ -1,0 +1,45 @@
+.header-wrapper {
+  box-sizing: border-box;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.6)
+  );
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 1% 5%;
+}
+.header-logo {
+  width: 15vw;
+}
+.nav-link {
+  margin: 0 3%;
+  padding: 5px 0;
+  font-size: 25px;
+  font-family: "Roboto Condensed";
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.nav-link:hover {
+  color: #118adb;
+}
+.socialMedia {
+  position: absolute;
+  right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .header-logo {
+    width: 35vw;
+    margin: 2% 5%;
+  }
+  .nav-link {
+    margin: 3vh 2vw 0 2vw;
+    font-size: 20px;
+  }
+  .socialMedia {
+    display: none;
+  }
+}

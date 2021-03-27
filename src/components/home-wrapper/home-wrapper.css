@@ -1,0 +1,421 @@
+.main-text-wrapper {
+  box-sizing: border-box;
+  width: 45%;
+  margin: 1% 0 1% 25%;
+  padding: 1% 10% 1% 5%;
+  height: auto;
+  background-image: url("../../assets/kocka.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font-size: 3.5em;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+}
+.main-text-wrapper span{
+  color:#4b9bd2
+}
+.changing-text {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom,  rgba(0, 0, 0, 0),rgba(0, 0, 0, 1));
+  color:  rgba(245, 238, 238, 0.9);
+  font-size: 6em;
+  font-weight: 900;
+  -webkit-text-stroke: 3px black;
+  text-shadow: 8px 8px 12px black;
+}
+.join-us {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 7vh 0;
+}
+.join-us-img{
+    width: 30%;
+    margin-right: 1%;
+}
+.join-us-img>img{
+  width: 100%;
+}
+.join-us-img-mobile{
+    display: none;
+}
+.join-us-content{
+  box-sizing: border-box;
+  width: 23%;
+  padding-top: 0.5%;
+  font-size: 1.25em;
+  color: white;
+  text-align: justify;
+}
+.join-us-link{
+  color: #508BFF;
+  font-size: 1.5em;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.join-us-link:hover{
+  border-bottom: 2px solid #508BFF;
+}
+.invest {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  padding: 12vh 0;
+}
+.invest-img{
+  width: 30%;
+  margin-right: 1%;
+}
+.invest-img>img{
+  width: 100%;
+}
+.invest-img-mobile{
+  display: none;
+}
+.invest-content {
+  box-sizing: border-box;
+  width: 23%;
+  font-size: 1.25em;
+  color: black;
+  text-align: justify;
+  font-family: "Roboto Condensed";
+}
+.invest-link{
+  color: #508BFF;
+  font-size: 1.5em;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+.invest-link:hover{
+  border-bottom: 2px solid #508BFF;
+}
+.text::before{
+  content: "";
+  animation:  animate infinite 24s;
+}
+@media only screen and (max-width: 1518px) {
+  .kocka-wrapper {
+    font-size: 2.5em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-text-wrapper {
+    box-sizing: border-box;
+    font-size: 2em;
+    background-image: url("../../assets/kockaMobile.png");
+    background-size: 100% 100%;
+    width: 95%;
+    margin: 10% 0 10% 2%;
+    /* padding: 2% 10% 2% 5%; */
+    }
+    .changing-text {
+        font-size: 2.5em;
+        -webkit-text-stroke: 2px black;
+    }
+    .join-us{
+        flex-direction: column;
+        
+    }
+    .join-us-img{
+        display: none;
+    }
+    .join-us-img-mobile{
+      display: block;
+        width: 75%;
+        margin-left: 20%;
+    }
+    .join-us-img-mobile img{
+      width: 100%;
+    }
+    .join-us-content {
+        width: 80%;
+        font-size: 1em;
+        text-align: right;
+        margin: 0 0 2% 15%;
+    }
+    .invest{
+      flex-direction: column;
+   }
+  .invest-img{
+      display: none;
+  }
+  .invest-img-mobile{
+    display: block;
+      width: 75%;
+      margin-left: 20%;
+  }
+  .invest-img-mobile img{
+    width: 100%;
+   } 
+   .invest-content{
+    width: 80%;
+    font-size: 1em;
+    text-align: right;
+    margin: 5% 0 2% 15%;
+   }
+  
+}
+@keyframes animate{
+  0%{
+    content:"O|"
+  }
+  1%{
+    content:"OR|"
+  }
+  2%{
+    content:"ORI|"
+  }
+  3%{
+    content:"ORIG|"
+  }
+  4%{
+    content:"ORIGI|"
+  }
+  5%{
+    content:"ORIGINA|"
+  }
+  6%{
+    content:"ORIGINAL|"
+  }
+  7%{
+    content:"ORIGINAL.|"
+  }
+  8%{
+    content:"ORIGINAL..|"
+  }
+  9%{
+    content:"ORIGINAL...|"
+  }
+  12%{
+    content:"ORIGINAL..|"
+  }
+  13%{
+    content:"ORIGINAL.|"
+  }
+  14%{
+    content:"ORIGINAL|"
+  }
+  15%{
+    content:"ORIGINA|"
+  }
+  16%{
+    content:"ORIGI|"
+  }
+  17%{
+    content:"ORIG|"
+  }
+  18%{
+    content:"ORI|"
+  }
+  19%{
+    content:"OR|"
+  }
+  20%{
+    content:"O|"
+  }
+  21%{
+    content: "|";
+  }
+  22%{
+    content:"F|"
+  }
+  23%{
+    content:"FE|"
+  }
+  24%{
+    content:"FEA|"
+  }
+  25%{
+    content:"FEAR|"
+  }
+  26%{
+    content:"FEARL|"
+  }
+  27%{
+    content:"FEARLE|"
+  }
+  28%{
+    content:"FEARLES|"
+  }
+  29%{
+    content:"FEARLESS|"
+  }
+  30%{
+    content:"FEARLESS.|"
+  }
+  31%{
+    content:"FEARLESS..|"
+  }
+  32%{
+    content:"FEARLESS...|"
+  }
+  37%{
+    content:"FEARLESS..|"
+  }
+  38%{
+    content:"FEARLESS.|"
+  }
+  39%{
+    content:"FEARLESS|"
+  }
+  40%{
+    content:"FEARLES|"
+  }
+  41%{
+    content:"FEARLE|"
+  }
+  42%{
+    content:"FEARL|"
+  }
+  43%{
+    content:"FEAR|"
+  }
+  44%{
+    content:"FEA|"
+  }
+  45%{
+    content:"FE|"
+  }
+  46%{
+    content:"F|"
+  }
+  47%{
+    content:"|"
+  }
+  48%{
+    content:"I|"
+  }
+  49%{
+    content:"IM|"
+  }
+  50%{
+    content:"IMP|"
+  }
+  51%{
+    content:"IMPA|"
+  }
+  52%{
+    content:"IMPACT|"
+  }
+  53%{
+    content:"IMPACTF|"
+  }
+  54%{
+    content:"IMPACTFU|"
+  }
+  55%{
+    content:"IMPACTFUL|"
+  }
+  56%{
+    content:"IMPACTFUL.|"
+  }
+  57%{
+    content:"IMPACTFUL..|"
+  }
+  58%{
+    content:"IMPACTFUL...|"
+  }
+  65%{
+    content:"IMPACTFUL..|"
+  }
+  66%{
+    content:"IMPACTFUL.|"
+  }
+  67%{
+    content:"IMPACTFUL|"
+  }
+  68%{
+    content:"IMPACTFU|"
+  }
+  69%{
+    content:"IMPACTFU|"
+  }
+  70%{
+    content:"IMPACTF|"
+  }
+  71%{
+    content:"IMPACT|"
+  }
+  72%{
+    content:"IMPAC|"
+  }
+  73%{
+    content:"IMPA|"
+  }
+  74%{
+    content:"IMP|"
+  }
+  75%{
+    content:"IM|"
+  }
+  76%{
+    content:"I|"
+  }
+  77%{
+    content:"|"
+  }
+  78%{
+    content:"C|"
+  }
+  79%{
+    content:"CH|"
+  }
+  80%{
+    content:"CHA|"
+  }
+  81%{
+    content:"CHAN|"
+  }
+  82%{
+    content:"CHANG|"
+  }
+  83%{
+    content:"CHANGE|"
+  }
+  84%{
+    content:"CHANGE.|"
+  }
+  85%{
+    content:"CHANGE..|"
+  }
+  86%{
+    content:"CHANGE...|"
+  }
+  90%{
+    content:"CHANGE..|"
+  }
+  91%{
+    content:"CHANGE.|"
+  }
+  92%{
+    content:"CHANGE|"
+  }
+  93%{
+    content:"CHANG|"
+  }
+  94%{
+    content:"CHAN|"
+  }
+  95%{
+    content:"CHA|"
+  }
+  96%{
+    content:"CH|"
+  }
+  97%{
+    content:"C|"
+  }
+  98%{
+    content:"|"
+  }
+  100%{
+    content:"|"
+  }
+
+}

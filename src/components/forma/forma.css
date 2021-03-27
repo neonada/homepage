@@ -1,0 +1,87 @@
+.mainFormWrapper{
+    display: flex;
+    width: 100%; 
+    height: 300px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 65%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 7vh 0;
+    flex-direction: row;
+    position: relative;
+}
+.name-email-input{
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.name-email-input input{
+    padding: 10px;
+    border-radius: 6px;
+    outline: none;
+    border:3px solid transparent;
+    transition: all .2s ease;
+}
+.name-email-input input:focus{
+    border:3px solid #4b9bd2;
+}
+.form-textarea{
+    box-sizing: border-box;
+    width: 55%;
+    resize: none;
+    padding: 10px;
+    border-radius: 6px;
+    border: 3px solid transparent;
+    outline: none;
+    transition: all .2s ease;
+}
+.form-textarea:focus{
+    border:3px solid #4b9bd2;
+}
+.form-textarea::placeholder{
+    padding: 30px;
+    text-align: center;
+}
+button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #4b9bd2;
+    background-color: black;
+    border:2px solid transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+button:hover{
+    border: 2px solid #4b9bd2;
+}
+@media only screen and (max-width: 768px) {
+    .form{
+        flex-direction: column;
+        width: 90%;  
+        height: 75%;
+        padding:0 0 6vh 0;
+    }
+    .name-email-input{
+        width: 100%;
+    }
+    input{
+        margin-top: 2vh;
+    }
+    .form-textarea{    
+        width: 100%;
+        margin-top: 2vh;
+    }
+    button{
+        border: 2px solid #4b9bd2;   
+    }
+}
