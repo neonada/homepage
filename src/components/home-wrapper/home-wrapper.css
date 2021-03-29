@@ -11,6 +11,9 @@
   font-family: "Roboto Condensed";
   font-weight: 700;
 }
+.KockaDesktop{
+  display: block;
+}
 .main-text-wrapper span{
   color:#4b9bd2
 }
@@ -159,7 +162,7 @@
     text-align: right;
     margin: 5% 0 2% 15%;
    }
-  
+
 }
 @keyframes animate{
   0%{

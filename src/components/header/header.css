@@ -1,17 +1,12 @@
 .header-wrapper {
   box-sizing: border-box;
-  background-image: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.6)
-  );
   display: flex;
   width: 100%;
   align-items: center;
   padding: 1% 5%;
 }
 .header-logo {
-  width: 15vw;
+  width: 25vw;
 }
 .nav-link {
   margin: 0 3%;
@@ -32,8 +27,9 @@
 }
 @media only screen and (max-width: 768px) {
   .header-logo {
-    width: 35vw;
-    margin: 2% 5%;
+    width: 45vw;
+    margin: 2% 3%;
+    padding-top: 8%;
   }
   .nav-link {
     margin: 3vh 2vw 0 2vw;

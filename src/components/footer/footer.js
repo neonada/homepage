@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../assets/logoFooter.png"
+import logo from "../../assets/neonada-01-03.png"
 import "./footer.css"
 import instagram from "../../assets/instagram.png"
 import linkedIn from "../../assets/linkedIn.png"

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../assets/logoNeonada.png";
+import logo from "../../assets/neonada-01-03.png";
 import "./header.css";
 import { NavLink } from "react-router-dom";
 import instagram from "../../assets/instagram.png"
