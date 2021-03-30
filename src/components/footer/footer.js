@@ -16,9 +16,7 @@ const Footer=()=>{
             </div>
             <p className="copyright">Copyright © 2020 NeoNada All Rights Reserved.</p>
         </div>
-        <div className="go-up-button-wrapper">
             <a className="go-up-button" href="#">Go Back Up</a>
-        </div>
     </div>
  )
 }

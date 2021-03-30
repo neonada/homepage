@@ -24,7 +24,9 @@
 .socialMedia {
   position: absolute;
   right: 0;
+  width: 6%;
 }
+
 @media only screen and (max-width: 768px) {
   .header-logo {
     width: 45vw;
