@@ -1,15 +1,15 @@
 .join-us-text{
+    box-sizing: border-box;
     font-size: 40px;
     font-family: "Roboto Condensed";
-    width:60vw;
-    margin:10vh auto;
+    width:55%;
+    margin: 1% 0 2% 22.5%;
     line-height: 55px;
-    background-color:rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
     padding: 3%;
-    background-color: white;
-    border-radius: 40px;
-    box-shadow: 3px 3px 10px 8px rgba(0, 0, 0, 0.15);
+    background-image: url("../assets/kocka.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
 }
 .position{
     font-size: 25px;
@@ -18,8 +18,10 @@
     .join-us-text{
         font-size: 25px;
         line-height: 40px;
-        width:80vw;
-        padding: 6% 2% 6% 6%;
-        box-shadow: 2px 2px 7px 5px rgba(0, 0, 0, 0.15);
+        width:90vw;
+        width: 90%;
+        margin: 10% auto;
+        background-image: url("../assets/kockaMobile.png");
+
     }
 }
